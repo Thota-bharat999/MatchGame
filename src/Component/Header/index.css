@@ -1,0 +1,40 @@
+nav {
+  background-color: #2c0e3a;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.website-img {
+  width: 200px;
+  height: 40px;
+}
+span {
+  color: #fec653;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 180px;
+}
+.img-container {
+  display: flex;
+  align-items: center;
+  width: 90px;
+}
+.nav-description {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+.timer-image {
+  width: 30px;
+  height: 30px;
+}

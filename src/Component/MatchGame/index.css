@@ -1,0 +1,90 @@
+.match-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  height: 90vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.match-image {
+  width: 500px;
+  height: 250px;
+}
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 600px;
+  justify-content: space-evenly;
+}
+.heading-description {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.un-order-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: auto;
+  list-style-type: none;
+  width: 50%;
+}
+.list-container {
+  list-style-type: none;
+}
+
+.active {
+  color: #fec653;
+  border-bottom: 2px solid #fec653;
+}
+
+.beyond-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  height: 600px;
+  width: 400px;
+  background-size: cover;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.trophy-img {
+  width: 200px;
+  height: 180px;
+}
+.score-description {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+}
+.score-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.play-button {
+  background-color: #cf60c8;
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+}
